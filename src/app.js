@@ -15,6 +15,9 @@ exports.activations = [
 exports.factory = function(express, path, env) {
 	var app = express();
 
+	// use template
+	app.set('view engine', 'ejs');
+
 	// use static files
 	app.use(express.static(path.join(env._rootDir, '/assets')));
 	app.use(express.static(path.join(env._rootDir, '/src')));

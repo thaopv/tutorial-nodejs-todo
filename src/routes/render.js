@@ -10,6 +10,9 @@ exports.requires = [
 
 exports.factory = function(path, app, env) {
 	app.get('/', function(req, res, next) {
-		res.sendFile(env._bootstrapFile);
+		res.render(env._bootstrapFile, {
+			firstName: 'Thao',
+			lastName: 'Pham',
+		});
 	});
 };
