@@ -1,0 +1,7 @@
+{
+	"preset": "google",
+	"validateIndentation": "\t",
+	"maximumLineLength": {"value": 200, "allExcept": ["functionSignature"]},
+	"requireCamelCaseOrUpperCaseIdentifiers": true,
+	"requireCamelCaseOrUpperCaseIdentifiers": {"ignoreProperties": true, "strict": true}
+}
