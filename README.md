@@ -9,9 +9,16 @@
 Use [YARN][yarn] to manage package
 
 # Usage
-* Install [YARN][yarn]
-* Install global `grunt-cli`: `yarn add global grunt-cli`
-* Open command-line in project and run `grunt`. Now browse to the app at [`localhost:8080`][local-app-url]
+Install [YARN][yarn]
+Install global `grunt-cli`:
+```bash
+$ yarn add global grunt-cli
+```
+Open command-line in project and run:
+```bash
+$ grunt
+```
+Now browse to the app at [`localhost:8080`][local-app-url]
 
 # Directory Layout
 ```
