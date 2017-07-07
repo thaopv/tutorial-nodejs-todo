@@ -3,22 +3,15 @@
 [![Build Status][travis-image]][travis-url]
 [![GitHub license][github-license]][github-license-url]
 [![GitHub stars][github-stars]][github-stars-url]
-
+[![Dependency Status][dependency-status]][dependency-status-url]
+[![devDependency Status][devDependency-status]][devDependency-status-url]
 # Package Manager
 Use [YARN][yarn] to manage package
 
 # Usage
 * Install [YARN][yarn]
-* Install global `grunt-cli`
-```bash
-yarn add global grunt-cli
-```
-* Open command-line in project
-* Run
-```bash
-grunt
-```
-Now browse to the app at [`localhost:8080`][local-app-url].
+* Install global `grunt-cli`: `yarn add global grunt-cli`
+* Open command-line in project and run `grunt`. Now browse to the app at [`localhost:8080`][local-app-url]
 
 # Directory Layout
 ```
@@ -53,3 +46,7 @@ tutorial-nodejs
 [travis-url]: https://travis-ci.org/thaopv/tutorial-nodejs
 [yarn]: https://yarnpkg.com/en/
 [local-app-url]: http://localhost:8080/
+[dependency-status]: https://david-dm.org/thaopv/tutorial-nodejs.svg
+[dependency-status-url]: https://david-dm.org/thaopv/tutorial-nodejs
+[devDependency-status]: https://david-dm.org/thaopv/tutorial-nodejs/dev-status.svg
+[devDependency-status-url]: https://david-dm.org/thaopv/tutorial-nodejs#info=devDependencies
