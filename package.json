@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "this is tutorial-nodejs",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thaopv/tutorial-nodejs"
+  },
   "author": "thaopv",
   "license": "MIT",
   "dependencies": {
