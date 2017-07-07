@@ -14,7 +14,12 @@ Install global `grunt-cli`:
 ```bash
 $ yarn add global grunt-cli
 ```
-Open command-line in project and run:
+Open command-line in project:
+* Install package:
+```bash
+$ yarn install
+```
+* Run app:
 ```bash
 $ grunt
 ```
