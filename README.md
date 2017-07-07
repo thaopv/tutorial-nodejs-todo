@@ -1,5 +1,5 @@
 # Tutorial NodeJS
-=====
+
 [![Build Status][travis-image]][travis-url]
 
 # License
