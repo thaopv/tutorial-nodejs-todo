@@ -1,0 +1,22 @@
+{
+  "name": "tutorial-nodejs",
+  "version": "1.0.0",
+  "description": "this is tutorial-nodejs",
+  "main": "index.js",
+  "author": "thaopv",
+  "license": "MIT",
+  "dependencies": {
+    "di-linker": "^2.1.4",
+    "ejs": "^2.5.6",
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-develop": "^0.4.0",
+    "grunt-jscs": "^3.0.1",
+    "load-grunt-tasks": "^3.5.2",
+    "nodemon": "^1.11.0"
+  }
+}
