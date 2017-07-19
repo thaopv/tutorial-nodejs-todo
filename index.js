@@ -4,8 +4,8 @@ var di = require('di-linker');
 
 di.walk([
 	'src/**/*.js',
-]).then(function(context) {
+]).then((context) => {
 	return context.bootstrap(['main']);
-}).catch(function error(err) {
+}).catch((err) => {
 	console.error(err);
 });

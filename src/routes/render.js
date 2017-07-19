@@ -8,8 +8,8 @@ exports.requires = [
 	'config.env',
 ];
 
-exports.factory = function(path, app, env) {
-	app.get('/', function(req, res, next) {
+exports.factory = (path, app, env) => {
+	app.get('/', (req, res, next) => {
 		res.render(env._bootstrapFile, {
 			firstName: 'Thao',
 			lastName: 'Pham',

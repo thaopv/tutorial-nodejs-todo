@@ -4,13 +4,13 @@ exports.name = 'main';
 
 exports.requires = [
 	'app',
-	'config.env.defaults',
+	'config.env',
 ];
 
-exports.factory = function(app, defaults) {
-	var server = app.listen(defaults.port, function() {
-		var host = server.address().address;
-		var port = server.address().port;
+exports.factory = (app, env) => {
+	let server = app.listen(env.port, () => {
+		let host = server.address().address;
+		let port = server.address().port;
 
 		console.log('app listening at http://%s:%s', host, port);
 	});

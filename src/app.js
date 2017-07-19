@@ -12,8 +12,8 @@ exports.activations = [
 	'routes.render',
 ];
 
-exports.factory = function(express, path, env) {
-	var app = express();
+exports.factory = (express, path, env) => {
+	let app = express();
 
 	// use template
 	app.set('view engine', 'ejs');
