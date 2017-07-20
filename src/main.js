@@ -3,8 +3,12 @@
 exports.name = 'main';
 
 exports.requires = [
-	'app',
+	'bootstrap.express',
 	'config.env',
+];
+
+exports.activations = [
+	'routes.render',
 ];
 
 exports.factory = (app, env) => {

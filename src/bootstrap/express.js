@@ -1,18 +1,16 @@
 'use strict';
 
-exports.name = 'app';
+exports.name = 'bootstrap.express';
 
 exports.requires = [
 	'@express',
 	'@path',
+	'@body-parser',
+	'@cookie-parser',
 	'config.env'
 ];
 
-exports.activations = [
-	'routes.render',
-];
-
-exports.factory = (express, path, env) => {
+exports.factory = (express, path, bodyParser, cookieParser, env) => {
 	let app = express();
 
 	// use template
@@ -22,7 +20,12 @@ exports.factory = (express, path, env) => {
 	app.use(express.static(path.join(env._rootDir, '/assets')));
 	app.use(express.static(path.join(env._rootDir, '/src')));
 
-	// config other
+	app.use(bodyParser.json());
+	app.use(bodyParser.urlencoded({
+		extended: false,
+	}));
+
+	app.use(cookieParser());
 
 	return app;
 };

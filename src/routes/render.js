@@ -4,7 +4,7 @@ exports.name = 'routes.render';
 
 exports.requires = [
 	'@path',
-	'app',
+	'bootstrap.express',
 	'config.env',
 ];
 
