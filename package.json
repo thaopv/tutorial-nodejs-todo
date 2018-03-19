@@ -16,7 +16,7 @@
     "di-linker": "^2.1.4",
     "ejs": "^2.5.6",
     "express": "^4.15.3",
-    "mongoose": "^4.11.3"
+    "mongoose": "^4.13.12"
   },
   "devDependencies": {
     "grunt": "^1.0.1",
