@@ -12,6 +12,7 @@
   "dependencies": {
     "bluebird": "^3.5.0",
     "body-parser": "^1.17.2",
+    "concurrently": "^3.5.1",
     "cookie-parser": "^1.4.3",
     "di-linker": "^2.1.4",
     "ejs": "^2.5.6",
